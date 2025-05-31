@@ -6,7 +6,7 @@ from utils.llm import get_llm
 st.set_page_config(page_title="Shoe Suggestion AI", page_icon="👟", layout="wide")
 
 # Sidebar menu for occasion selection
-st.sidebar.title("👟 Select Occasion")
+st.sidebar.title("👟 AI-Powered Occasion-Based Shoe Recommender")
 occasions = ["Select Occasion", "Wedding", "Gym Workout", "Casual Walk", "Business Meeting", 
              "Party", "Beach Day", "Hiking", "Date Night", "Interview"]
 selected_occasion = st.sidebar.selectbox("Choose an occasion:", occasions)
